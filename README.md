@@ -28,8 +28,8 @@ A Python programme that analyses Formula One tyre degradation by fitting a linea
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/shreyanshSingh06/f1-tyre-degradation.git
-cd f1-tyre-degradation
+git clone https://github.com/shreyanshSingh06/F1-Tyre-Degradation-Analyser.git
+cd F1-Tyre-Degradation-Analyser
 ```
 
 2. Install the required libraries:
