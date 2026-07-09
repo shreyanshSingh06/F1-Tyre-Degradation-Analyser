@@ -1,6 +1,6 @@
 # F1 Tyre Degradation Analyser
 
-A Python programme that analyses Formula One tyre degradation by fitting a linear model to real race data. It retrieves live timing data using the FastF1 library and uses least squares approximation to estimate how much slower a car gets per lap as its tyres wear.
+A Python program that analyses Formula One tyre degradation by fitting a linear model to real race data. It retrieves live timing data using the FastF1 library and uses least squares approximation to estimate how much slower a car gets per lap as its tyres wear.
 
 ## Features
 
@@ -38,13 +38,13 @@ cd F1-Tyre-Degradation-Analyser
 pip install fastf1 numpy matplotlib
 ```
 
-### Running the Programme
+### Running the program
 
 ```bash
 python main.py
 ```
 
-The programme will prompt you for inputs step by step:
+The program will prompt you for inputs step by step:
 
 1. **Year** — the season to analyse (2021 or later)
 2. **Round number** — a list of races for that season is printed; enter the round number of the race you want
@@ -55,7 +55,7 @@ After the results are shown, enter `y` to analyse another stint or `n` to exit.
 
 ## Output
 
-The programme prints the base lap time, degradation rate, and R² value to the terminal. A plot is also generated and saved automatically to the project folder as a PNG, with the filename including the driver, race, year, and stint number — for example, `HAM_Belgian_Grand_Prix_2025_stint2.png`.
+The program prints the base lap time, degradation rate, and R² value to the terminal. A plot is also generated and saved automatically to the project folder as a PNG, with the filename including the driver, race, year, and stint number — for example, `HAM_Belgian_Grand_Prix_2025_stint2.png`.
 
 ## Notes
 
